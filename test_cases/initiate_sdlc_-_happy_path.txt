@@ -1,0 +1,6 @@
+[Test Case Name]: initiate_sdlc - happy path
+
+[Test Steps]:
+1. Send POST request to /initiate_sdlc with valid data
+2. Verify response status code is 200
+3. Assert response body contains "message": "SDLC initiated"

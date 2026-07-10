@@ -1,0 +1,9 @@
+[Test Case Name]: Get Order Status - Failure
+
+[Description]: Handles a request for a non-existent order.
+
+[Test Type]: Negative
+
+[Test Steps]:
+1. Send GET request to /orders/<invalid_order_id>
+2. Verify response contains an error message (e.g., 404 Not Found)

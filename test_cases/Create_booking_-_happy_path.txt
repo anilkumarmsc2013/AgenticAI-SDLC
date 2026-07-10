@@ -1,0 +1,5 @@
+[Test Case Name]: Create booking - happy path
+
+[Test Steps]:
+1. Send POST request to /bookings with valid booking data (e.g., movie_id, showtime, num_tickets, user_id)
+2. Verify response returns a 201 Created status code and the created booking object

@@ -1,0 +1,6 @@
+[Test Case Name]: Search stock - valid ticker
+
+[Test Steps]:
+1. Send GET request to /search_stock/AAPL
+2. Verify response status code is 200
+3. Assert response contains 'stock_data' key with expected stock information

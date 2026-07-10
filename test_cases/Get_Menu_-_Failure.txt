@@ -1,0 +1,10 @@
+[Test Case Name]: Get Menu - Failure
+
+[Description]: Handles an error when retrieving the menu.
+
+[Test Type]: Negative
+
+[Test Steps]:
+1. Mock `get_menu` to raise an exception
+2. Send GET request to /menu
+3. Verify response contains an error message

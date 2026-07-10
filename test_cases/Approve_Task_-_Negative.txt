@@ -1,0 +1,7 @@
+[Test Case Name]: Approve Task - Negative
+
+[Test Steps]:
+1. Create a sample task object with a status other than 'completed'
+2. Send POST request to '/approve_task' with the task ID
+3. Verify the response status code is 400 (Bad Request)
+4. Verify the response message indicates that the task status is not 'completed' and cannot be approved

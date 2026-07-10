@@ -1,0 +1,6 @@
+[Test Case Name]: Set alert - invalid ticker
+
+[Test Steps]:
+1. Send GET request to /set_alert/INVALID_TICKER with valid criteria
+2. Verify response status code is 400
+3. Assert response contains an error message indicating invalid ticker symbol

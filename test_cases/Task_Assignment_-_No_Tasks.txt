@@ -1,0 +1,6 @@
+[Test Case Name]: Task Assignment - No Tasks
+
+[Test Steps]:
+1. Send GET request to /task_assignment
+2. Verify response status code is 200
+3. Assert response contains an empty list of tasks

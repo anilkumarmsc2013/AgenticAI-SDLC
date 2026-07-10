@@ -1,0 +1,7 @@
+[Test Case Name]: Approve Task - Happy Path
+
+[Test Steps]:
+1. Create a sample task object with a valid task ID and status 'completed'
+2. Send POST request to '/approve_task' with JSON data containing the valid task ID
+3. Verify the response status code is 200 (OK)
+4. Verify the response message is 'Task approved successfully'

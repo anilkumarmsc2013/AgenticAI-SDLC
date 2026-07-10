@@ -1,0 +1,6 @@
+[Test Case Name]: Current trend - valid ticker
+
+[Test Steps]:
+1. Send GET request to /current_trend/AAPL
+2. Verify response status code is 200
+3. Assert response contains 'current_trend' key with either 'upward' or 'downward'

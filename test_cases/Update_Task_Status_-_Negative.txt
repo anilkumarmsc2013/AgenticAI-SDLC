@@ -1,0 +1,6 @@
+[Test Case Name]: Update Task Status - Negative
+
+[Test Steps]:
+1. Send POST request to '/update_task_status' with JSON data containing an invalid status value
+2. Verify the response status code is 400 (Bad Request)
+3. Verify the response message includes an error indicating an invalid status value

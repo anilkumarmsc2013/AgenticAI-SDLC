@@ -1,0 +1,5 @@
+[Test Case Name]: Get showtimes - non-existent movie
+
+[Test Steps]:
+1. Send GET request to /movies/999/showtimes
+2. Verify response returns an appropriate error code (e.g., 404 Not Found) and an informative error message

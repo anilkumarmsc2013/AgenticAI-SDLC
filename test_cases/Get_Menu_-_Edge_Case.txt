@@ -1,0 +1,10 @@
+[Test Case Name]: Get Menu - Edge Case
+
+[Description]: Retrieves the menu when no items are available.
+
+[Test Type]: Edge Case
+
+[Test Steps]:
+1. Mock `get_menu` to return an empty list
+2. Send GET request to /menu
+3. Verify response contains an empty list

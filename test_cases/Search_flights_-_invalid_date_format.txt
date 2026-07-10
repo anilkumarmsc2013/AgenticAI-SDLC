@@ -1,0 +1,6 @@
+[Test Case Name]: Search flights - invalid date format
+
+[Test Steps]:
+1. Send GET request to /flights?origin=JFK&destination=LHR&date=invalid-date
+2. Verify response status code is 400
+3. Parse JSON response and assert that it contains an error message indicating invalid date format

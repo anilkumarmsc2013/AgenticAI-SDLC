@@ -1,0 +1,6 @@
+[Test Case Name]: Breakout periods - empty ticker
+
+[Test Steps]:
+1. Send GET request to /breakout_periods/
+2. Verify response status code is 400
+3. Assert response contains an error message indicating missing ticker symbol

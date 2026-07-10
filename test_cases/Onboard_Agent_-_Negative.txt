@@ -1,0 +1,7 @@
+[Test Case Name]: Onboard Agent - Negative
+
+[Test Steps]:
+1. Prepare agent data with an invalid agent ID format: {'agent_id': 'invalid_id', 'name': 'Alice', 'email': 'alice@example.com'}
+2. Send POST request to '/onboard_agent' with the prepared agent data
+3. Verify the response status code is 400 (Bad Request)
+4. Verify the response message includes an error indicating invalid agent ID format

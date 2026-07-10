@@ -1,0 +1,6 @@
+[Test Case Name]: User creation - edge case
+
+[Test Steps]:
+1. Send POST request to /users with username exceeding maximum length (refer to design doc for limit)
+2. Verify response status code is 400 Bad Request
+3. Assert response message contains validation error for username length

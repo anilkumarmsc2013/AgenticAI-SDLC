@@ -1,0 +1,6 @@
+[Test Case Name]: Assign Task - Edge Case
+
+[Test Steps]:
+1. Send POST request to '/assign_task' with missing task_id in the JSON data
+2. Verify the response status code is 400 (Bad Request)
+3. Verify the response message includes an error indicating missing task_id

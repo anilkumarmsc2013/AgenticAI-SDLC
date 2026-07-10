@@ -1,0 +1,8 @@
+[Test Case Name]: Get movies - valid genre
+
+[Test Steps]:
+1. Send GET request to /movies?genre=Comedy
+
+2. Verify response status code is 200
+
+3. Assert response contains a list of movies with the specified genre

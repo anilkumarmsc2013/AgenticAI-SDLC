@@ -1,0 +1,6 @@
+[Test Case Name]: Product retrieval - edge case
+
+[Test Steps]:
+1. Send GET request to /products with an invalid filter parameter
+2. Verify response status code is 400 Bad Request
+3. Assert response message contains a validation error for the invalid filter

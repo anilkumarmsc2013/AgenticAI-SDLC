@@ -1,0 +1,10 @@
+[Test Case Name]: Get Menu
+
+[Description]: Retrieves the available food items from the menu.
+
+[Test Type]: Positive
+
+[Test Steps]:
+1. Send GET request to /menu
+2. Receive response
+3. Verify response contains a list of food items with 'id', 'name', and 'price'

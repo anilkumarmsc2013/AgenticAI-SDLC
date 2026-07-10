@@ -1,0 +1,6 @@
+[Test Case Name]: feature_request - failure
+
+[Test Steps]:
+1. Send POST request to /feature_request with invalid data type for a required field
+2. Verify response status code is 400
+3. Assert response body contains an appropriate error message

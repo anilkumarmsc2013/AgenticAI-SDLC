@@ -1,0 +1,9 @@
+[Test Case Name]: Add Order Item - Edge Case
+
+[Description]: Adds an item to the order with missing data.
+
+[Test Type]: Edge Case
+
+[Test Steps]:
+1. Send POST request to /order with incomplete JSON data (missing 'item_id' or 'quantity')
+2. Verify response contains an error message with missing data validation

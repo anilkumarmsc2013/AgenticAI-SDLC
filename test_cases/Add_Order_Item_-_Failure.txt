@@ -1,0 +1,10 @@
+[Test Case Name]: Add Order Item - Failure
+
+[Description]: Handles an error when adding an item to the order.
+
+[Test Type]: Negative
+
+[Test Steps]:
+1. Mock `add_item` to raise an exception
+2. Send POST request to /order with valid JSON data
+3. Verify response contains an error message

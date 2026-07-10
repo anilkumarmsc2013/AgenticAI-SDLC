@@ -1,0 +1,10 @@
+[Test Case Name]: Get Order Status
+
+[Description]: Retrieves the status of an existing order.
+
+[Test Type]: Positive
+
+[Test Steps]:
+1. Previously added an order with `add_order_item`
+2. Send GET request to /orders/<order_id>
+3. Verify response contains the 'status' of the order

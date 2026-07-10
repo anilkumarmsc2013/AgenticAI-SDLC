@@ -1,0 +1,6 @@
+[Test Case Name]: Approve Task - Edge Case
+
+[Test Steps]:
+1. Send POST request to '/approve_task' with an invalid task ID
+2. Verify the response status code is 404 (Not Found)
+3. Verify the response message includes an error indicating the task was not found

@@ -1,0 +1,6 @@
+[Test Case Name]: Assign Task - Negative 
+
+[Test Steps]:
+1. Send POST request to '/assign_task' with an invalid task ID format (e.g., letters instead of numbers)
+2. Verify the response status code is 400 (Bad Request)
+3. Verify the response message includes an error indicating invalid task ID format

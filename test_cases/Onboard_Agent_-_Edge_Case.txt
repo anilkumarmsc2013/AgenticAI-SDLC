@@ -1,0 +1,7 @@
+[Test Case Name]: Onboard Agent - Edge Case
+
+[Test Steps]:
+1. Prepare agent data with an empty name field: {'agent_id': 'A456', 'email': 'jane.doe@example.com'}
+2. Send POST request to '/onboard_agent' with the prepared agent data
+3. Verify the response status code is 400 (Bad Request)
+4. Verify the response message includes an error indicating missing name

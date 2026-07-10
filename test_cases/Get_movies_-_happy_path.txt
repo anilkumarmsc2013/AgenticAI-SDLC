@@ -1,0 +1,5 @@
+[Test Case Name]: Get movies - happy path
+
+[Test Steps]:
+1. Send GET request to /movies?genre=Action
+2. Verify response contains a list of movies belonging to the Action genre

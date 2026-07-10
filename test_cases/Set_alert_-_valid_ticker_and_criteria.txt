@@ -1,0 +1,6 @@
+[Test Case Name]: Set alert - valid ticker and criteria
+
+[Test Steps]:
+1. Send GET request to /set_alert/AAPL with valid criteria
+2. Verify response status code is 200
+3. Assert response contains 'alert_set' key with value True

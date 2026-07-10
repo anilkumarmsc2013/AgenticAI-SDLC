@@ -1,0 +1,6 @@
+[Test Case Name]: Initiate SDLC - Missing Data
+
+[Test Steps]:
+1. Send POST request to /initiate_sdlc with no data
+2. Verify response status code is 400
+3. Assert response contains a validation error message

@@ -1,0 +1,6 @@
+[Test Case Name]: Search stock - empty ticker
+
+[Test Steps]:
+1. Send GET request to /search_stock/
+2. Verify response status code is 400
+3. Assert response contains an error message indicating missing ticker symbol

@@ -1,0 +1,6 @@
+[Test Case Name]: User creation - negative
+
+[Test Steps]:
+1. Send POST request to /users with missing email field
+2. Verify response status code is 400 Bad Request
+3. Assert response message contains validation error for missing email

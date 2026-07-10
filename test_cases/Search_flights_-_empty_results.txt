@@ -1,0 +1,9 @@
+[Test Case Name]: Search flights - empty results
+
+[Test Steps]:
+1. Send GET request to /flights?origin=JFK&destination=SFO&date=2025-01-01
+2. Verify response status code is 200
+3. Parse JSON response and assert that the list of flights is empty
+
+
+---

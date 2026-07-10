@@ -1,0 +1,8 @@
+[Test Case Name]: Create User - Duplicate Username
+
+[Test Type]: Negative
+
+[Test Steps]:
+1. Send POST request to /users with existing username
+2. Verify response status code is 400 Bad Request
+3. Assert response message contains an error indicating duplicate username

@@ -1,0 +1,8 @@
+[Test Case Name]: Get showtimes - valid movie ID
+
+[Test Steps]:
+1. Send GET request to /movies/123/showtimes
+
+2. Verify response status code is 200
+
+3. Assert response contains a list of showtimes for movie with ID 123

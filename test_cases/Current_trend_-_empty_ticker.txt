@@ -1,0 +1,6 @@
+[Test Case Name]: Current trend - empty ticker
+
+[Test Steps]:
+1. Send GET request to /current_trend/
+2. Verify response status code is 400
+3. Assert response contains an error message indicating missing ticker symbol

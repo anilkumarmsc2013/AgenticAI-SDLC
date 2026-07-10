@@ -1,0 +1,5 @@
+[Test Case Name]: Get showtimes - happy path
+
+[Test Steps]:
+1. Send GET request to /movies/123/showtimes
+2. Verify response contains a list of showtimes for movie with ID 123

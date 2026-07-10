@@ -1,0 +1,7 @@
+[Test Case Name]: Feature Request - Successful
+
+[Test Steps]:
+1. Create a FeatureRequest object with valid data
+2. Send POST request to /feature_request with the FeatureRequest object
+3. Verify response status code is 200
+4. Assert response message is "Feature request received"

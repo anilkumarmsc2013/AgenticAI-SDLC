@@ -1,0 +1,6 @@
+[Test Case Name]: deployment_logs - edge case
+
+[Test Steps]:
+1. Send GET request to /deployment_logs with invalid parameters
+2. Verify response status code is 400
+3. Assert response body contains an appropriate error message

@@ -1,0 +1,7 @@
+[Test Case Name]: Get booking - non-existent booking
+
+[Test Steps]:
+1. Send GET request to /bookings/999
+2. Verify response returns a 404 Not Found status code and an informative error message
+
+---

@@ -1,0 +1,8 @@
+[Test Case Name]: Product retrieval - negative
+
+[Test Steps]:
+1. Send GET request to /products when no products are available in the database
+2. Verify response status code is 200 OK
+3. Assert response contains an empty list of products
+
+---

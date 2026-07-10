@@ -1,0 +1,6 @@
+[Test Case Name]: Deployment Logs - No Logs
+
+[Test Steps]:
+1. Send GET request to /deployment_logs
+2. Verify response status code is 200
+3. Assert response contains an empty list of deployment logs

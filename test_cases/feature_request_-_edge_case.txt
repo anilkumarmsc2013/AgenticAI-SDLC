@@ -1,0 +1,6 @@
+[Test Case Name]: feature_request - edge case
+
+[Test Steps]:
+1. Send POST request to /feature_request with missing required fields
+2. Verify response status code is 400
+3. Assert response body contains an appropriate error message

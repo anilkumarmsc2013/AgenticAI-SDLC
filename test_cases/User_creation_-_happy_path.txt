@@ -1,0 +1,6 @@
+[Test Case Name]: User creation - happy path
+
+[Test Steps]:
+1. Send POST request to /users with valid user data (username, email, password)
+2. Verify response status code is 200 OK
+3. Assert response message is 'User created successfully'

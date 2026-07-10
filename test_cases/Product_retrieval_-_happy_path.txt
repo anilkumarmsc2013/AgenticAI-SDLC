@@ -1,0 +1,6 @@
+[Test Case Name]: Product retrieval - happy path
+
+[Test Steps]:
+1. Send GET request to /products
+2. Verify response status code is 200 OK
+3. Assert response contains a list of products

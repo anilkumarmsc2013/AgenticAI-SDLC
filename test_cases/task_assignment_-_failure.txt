@@ -1,0 +1,6 @@
+[Test Case Name]: task_assignment - failure
+
+[Test Steps]:
+1. Simulate database error during task retrieval
+2. Verify response status code is 500
+3. Assert response body contains an appropriate error message

@@ -1,0 +1,5 @@
+[Test Case Name]: Get movies - edge case
+
+[Test Steps]:
+1. Send GET request to /movies?genre=Sci-Fi&date=2024-12-01
+2. Verify response returns a list of movies belonging to the Sci-Fi genre, ignoring the date parameter

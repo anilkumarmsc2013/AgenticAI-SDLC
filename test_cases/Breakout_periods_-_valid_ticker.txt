@@ -1,0 +1,6 @@
+[Test Case Name]: Breakout periods - valid ticker
+
+[Test Steps]:
+1. Send GET request to /breakout_periods/AAPL
+2. Verify response status code is 200
+3. Assert response contains 'breakout_periods' key with a list of breakout periods

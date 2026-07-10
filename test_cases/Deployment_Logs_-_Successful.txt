@@ -1,0 +1,6 @@
+[Test Case Name]: Deployment Logs - Successful
+
+[Test Steps]:
+1. Send GET request to /deployment_logs
+2. Verify response status code is 200
+3. Assert response contains a list of deployment logs

@@ -1,0 +1,10 @@
+[Test Case Name]: Process Payment
+
+[Description]: Processes payment for an existing order.
+
+[Test Type]: Positive
+
+[Test Steps]:
+1. Previously added an order with `add_order_item`
+2. Send POST request to /orders/<order_id>/pay
+3. Verify response contains a success message

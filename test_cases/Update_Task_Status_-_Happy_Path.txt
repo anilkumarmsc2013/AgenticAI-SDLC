@@ -1,0 +1,7 @@
+[Test Case Name]: Update Task Status - Happy Path
+
+[Test Steps]:
+1. Create a sample task object with a valid task ID
+2. Send POST request to '/update_task_status' with JSON data containing valid task ID and a valid status (e.g., 'completed')
+3. Verify the response status code is 200 (OK)
+4. Verify the response message is 'Task status updated successfully'

@@ -1,0 +1,5 @@
+[Test Case Name]: Get booking - happy path
+
+[Test Steps]:
+1. Send GET request to /bookings/123
+2. Verify response returns the booking details for booking with ID 123

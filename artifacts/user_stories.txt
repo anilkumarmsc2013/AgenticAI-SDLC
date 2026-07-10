@@ -1,0 +1,9 @@
+📘 User Stories
+========================================
+
+1. As a new user, I want to create an account so that I can shop and save my information.
+2. As a registered user, I want to browse the product catalog so that I can find items I'm interested in.
+3. As a user, I want to add items to my shopping cart so that I can purchase multiple products in one transaction.
+4. As a user, I want to securely checkout and complete my purchase so that I can receive my order.
+5. As an administrator, I want to manage product information and inventory so that I can ensure accurate product listings.
+6. As an administrator, I want to track and manage orders so that I can fulfill customer requests and monitor sales.

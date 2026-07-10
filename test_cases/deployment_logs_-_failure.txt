@@ -1,0 +1,6 @@
+[Test Case Name]: deployment_logs - failure
+
+[Test Steps]:
+1. Simulate database error during deployment log retrieval
+2. Verify response status code is 500
+3. Assert response body contains an appropriate error message

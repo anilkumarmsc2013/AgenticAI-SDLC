@@ -1,0 +1,8 @@
+[Test Case Name]: Assign Task - Happy Path
+
+[Test Steps]:
+1. Create a sample task object with a valid task ID
+2. Create a sample agent object with a valid agent ID
+3. Send POST request to '/assign_task' with JSON data containing valid task ID and agent ID
+4. Verify the response status code is 200 (OK)
+5. Verify the response message is 'Task assigned successfully'

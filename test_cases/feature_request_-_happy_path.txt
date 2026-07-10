@@ -1,0 +1,6 @@
+[Test Case Name]: feature_request - happy path
+
+[Test Steps]:
+1. Send POST request to /feature_request with a valid FeatureRequest object
+2. Verify response status code is 200
+3. Assert response body contains "message": "Feature request received"

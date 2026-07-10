@@ -1,0 +1,6 @@
+[Test Case Name]: Filter stocks - invalid criteria
+
+[Test Steps]:
+1. Send GET request to /filter_stocks with invalid criteria
+2. Verify response status code is 400
+3. Assert response contains an error message indicating invalid criteria format

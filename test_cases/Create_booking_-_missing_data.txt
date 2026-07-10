@@ -1,0 +1,8 @@
+[Test Case Name]: Create booking - missing data
+
+[Test Steps]:
+1. Send POST request to /bookings with incomplete JSON data missing required fields
+
+2. Verify response status code is 400
+
+3. Assert response contains an error message indicating missing required data

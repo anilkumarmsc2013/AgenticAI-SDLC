@@ -1,0 +1,6 @@
+[Test Case Name]: Search flights - valid input
+
+[Test Steps]:
+1. Send GET request to /flights?origin=LAX&destination=SFO&date=2024-12-01
+2. Verify response status code is 200
+3. Parse JSON response and assert that it contains a list of flights matching the criteria

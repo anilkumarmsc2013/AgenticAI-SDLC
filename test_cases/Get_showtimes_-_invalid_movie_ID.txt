@@ -1,0 +1,8 @@
+[Test Case Name]: Get showtimes - invalid movie ID
+
+[Test Steps]:
+1. Send GET request to /movies/invalid/showtimes
+
+2. Verify response status code is 404
+
+3. Assert response contains an error message indicating movie not found

@@ -1,0 +1,6 @@
+[Test Case Name]: Current trend - invalid ticker
+
+[Test Steps]:
+1. Send GET request to /current_trend/INVALID_TICKER
+2. Verify response status code is 400
+3. Assert response contains an error message indicating invalid ticker symbol

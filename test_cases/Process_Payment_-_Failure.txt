@@ -1,0 +1,11 @@
+[Test Case Name]: Process Payment - Failure
+
+[Description]: Handles an error when processing payment.
+
+[Test Type]: Negative
+
+[Test Steps]:
+1. Previously added an order with `add_order_item`
+2. Mock `process_payment` to raise an exception
+3. Send POST request to /orders/<order_id>/pay
+4. Verify response contains an error message

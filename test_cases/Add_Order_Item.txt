@@ -1,0 +1,9 @@
+[Test Case Name]: Add Order Item
+
+[Description]: Adds an item to the order with valid data.
+
+[Test Type]: Positive
+
+[Test Steps]:
+1. Send POST request to /order with JSON data containing 'item_id' and 'quantity'
+2. Receive response with 'order_id'

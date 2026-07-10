@@ -1,0 +1,8 @@
+[Test Case Name]: Get movies - invalid genre
+
+[Test Steps]:
+1. Send GET request to /movies?genre=InvalidGenre
+
+2. Verify response status code is 200
+
+3. Assert response contains a message indicating no movies found for that genre

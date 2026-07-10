@@ -1,0 +1,6 @@
+[Test Case Name]: Historical price - valid ticker
+
+[Test Steps]:
+1. Send GET request to /historical_price/AAPL
+2. Verify response status code is 200
+3. Assert response contains 'historical_prices' key with a list of historical prices

@@ -1,0 +1,7 @@
+[Test Case Name]: Onboard Agent - Happy Path
+
+[Test Steps]:
+1. Prepare valid agent data as JSON: {'agent_id': 'A123', 'name': 'John Doe', 'email': 'john.doe@example.com'}
+2. Send POST request to '/onboard_agent' with the prepared agent data
+3. Verify the response status code is 201 (Created)
+4. Verify the response message is 'Agent onboarded successfully'
